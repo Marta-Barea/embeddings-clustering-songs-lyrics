@@ -1,0 +1,49 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+
+# Environment folders
+env/
+venv/
+
+# Configuration and IDE files
+*.env
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+
+# Test reports
+.coverage
+htmlcov/
+
+# Python eggs and wheels
+*.egg-info/
+*.egg
+*.whl
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Package lock files
+Pipfile.lock
+poetry.lock
+
+# Other unnecessary files
+*.~undo-tree
