@@ -1,9 +1,9 @@
-# ** Semantic Song Grouping**
+# **Semantic Song Grouping**
 
 This project showcases how machine learning can be used to cluster song lyrics based on their meaning. By analyzing the embeddings of the lyrics' text, it's possible to identify groups of songs with similar themes or content. The final clusters are saved in a JSON file, making it easy to explore and understand the relationships between different lyrics.
 
 ---
-## ** 🛠️ How It Works**
+## 🛠️ How It Works
 
 1. Embedding Generation: Each song lyric is processed to generate a numerical embedding representing its semantic meaning. In this case, `text-embedding-3-large` model from OpenAI was used.
 
@@ -13,7 +13,7 @@ This project showcases how machine learning can be used to cluster song lyrics b
 
 4. Results: The final clusters are saved in a JSON file located at **`outputs/clusters.json`**.
 
-## ** 💻 Technologies Used**
+## 💻 Technologies Used
 
 - Python: Core programming language.
 
@@ -25,7 +25,7 @@ This project showcases how machine learning can be used to cluster song lyrics b
 
 - Cache Decorator: To cache embedding results and optimize performance
 
-## ** 📊 Datset**
+## 📊 Datset
 
 The dataset consists of song lyrics saved as text files in the data directory. Each file contains lyrics from popular songs across various artists and genres. Below are the included songs:
 
@@ -44,7 +44,7 @@ The dataset consists of song lyrics saved as text files in the data directory. E
 | Pink Floyd         | Wish You Were Here               | `wish-you-were-here-pink-floyd.txt`           |
 | Eminem             | Without Me                       | `without-me-eminem.txt`                       |
 
-## ** 🔎 Results** 
+## 🔎 Results 
 
 The clustering results are saved in the **`outputs/clusters.json`** file. Each song lyric file is assigned a cluster ID, as shown below:
 
@@ -75,7 +75,7 @@ The clustering results are saved in the **`outputs/clusters.json`** file. Each s
 
 ---
 
-## ** 🚀 How to Run the Project**
+## 🚀 How to Run the Project
 
 - Clone the Repository: Start by cloning the project repository. 
 
@@ -101,7 +101,7 @@ python src/main.py
 
 ---
 
-## ** 🗒️ Notes**
+## 🗒️ Notes
 
 - The project assumes that all lyrics are in plain text format with no additional preprocessing.
 
