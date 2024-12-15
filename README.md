@@ -25,7 +25,7 @@ This project showcases how machine learning can be used to cluster song lyrics b
 
 - Cache Decorator: To cache embedding results and optimize performance
 
-## 📊 Datset
+## 📊 Dataset
 
 The dataset consists of song lyrics saved as text files in the data directory. Each file contains lyrics from popular songs across various artists and genres. Below are the included songs:
 
