@@ -83,7 +83,7 @@ The clustering results are saved in the **`outputs/clusters.json`** file. Each s
 
 - Install Conda: Ensure Conda is installed on your system. If not, download and install it from [Miniconda](https://docs.anaconda.com/miniconda/install/) or [Anaconda](https://docs.anaconda.com/anaconda/install/).
 
-- Install Dependencies: Set up the environment using the provided environment.yml file.
+- Install Dependencies: Set up the environment using the provided `environment.yml` file.
 
 ```bash 
 conda env create -f environment.yml
